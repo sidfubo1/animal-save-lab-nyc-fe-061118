@@ -10,17 +10,8 @@ html {
 
 /* Write your solution here */
 
-@media only screen and (min-width: 406px) {
+@media only screen and (min-width: 406px) and (max-width: 1170px) {
   #monkey {
-    position: absolute;
-    top: 0px;
-  }
-}
-
-@media only screen and (min-width: 1170px) {
-  #monkey {
-  position: absolute;
-  top: 550px;
-  right: 120px;
+    top: 20px;
   }
 }
